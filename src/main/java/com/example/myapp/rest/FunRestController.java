@@ -14,4 +14,13 @@ public class FunRestController {
         return "Hello World";
     }
 
+    @GetMapping("/account")
+    public String getAccount() {
+        return "Welcome to your Account Page";
+    }
+
+    @GetMapping("/contactus")
+    public String getDailyWorkout() {
+        return "Contact us at";
+    }
 }
